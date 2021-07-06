@@ -19,7 +19,28 @@ p{
 .fl{
     float:left;
 }
-
+/* menu-area */
+.menu-area{
+    text-align: center;
+    
+}
+.menu-area a{
+    display: inline-block;
+    text-decoration: none;
+    color: #222;
+    padding:40px;
+    font-weight: 900;
+    font-size: 20px;
+}
+a.signup-btn{
+    background-image: linear-gradient(#FD5030,#FB8E48);
+    border-radius: 30px;
+    color: #fff;
+    padding:10px 40px;
+    float: right;
+    margin-top:40px;
+    margin-right:50px;
+}
 /* content area */
 
 .diet{
@@ -96,4 +117,151 @@ p{
     font-weight: bold;
     margin-top:70px;
     display: inline-block;
+}
+
+/* Recipi area */
+
+.recepi-heading{
+    text-align: center;
+    margin:40px 0;
+}
+.recepi-heading h1{
+    font-size: 50px;
+}
+.recepi-heading p{
+    font-size: 20px;
+    padding: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.recipi-list{
+    display: flex;
+    margin-left: 80px;
+    text-align: center;
+    margin-right:80px;
+   
+  
+}
+.per-item{
+    max-width: 30%;
+    margin:30px;
+     background:#fff;
+     padding: 10px;
+     border-radius: 30px;
+     box-shadow: 10px 10px 30px rgb(214, 211, 211);
+    
+}
+.per-item img{
+    max-width: 90%;
+    margin-top:20px;
+  
+}
+.per-item h2{
+    font-size: 40px;
+    color: black;
+    margin-top: 40px;
+    font-weight: 900;
+    text-align: left;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+.per-item p {
+  padding-left:25px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 1px;
+    color: #646464;
+    
+}
+/* like-area */
+.subs-area{
+    display: flex;
+    text-align: center;
+    padding:60px;
+    background: #fff;
+    margin:100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgb(214, 212, 212);
+}
+.counter-area{
+    padding: 60px;
+    margin-left:180px;
+    display: block;
+}
+.counter-area h1{
+    font-size: 50px;
+    color:#222;
+    margin-bottom:8px;
+}
+.counter-area p{
+    text-align: center;
+}
+/* form area */
+.touch-area{
+    background-image: url("img/shape-bg2.jpg");
+    height: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.mt-50{
+padding-top: 50px;
+}
+
+input[type=text],input[type=password]{
+    width: 100%;
+    padding:15px;
+    margin:10px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]::-moz-focus-inner{
+    background-color: #ddd;
+    outline:none;
+}
+button.signup-btn{
+    background-image: linear-gradient(#FA944A,#FD4E2F);
+    color:white;
+    padding:20px 40px;
+    border:none;
+    cursor:pointer;
+    width:15%;
+    border-radius: 5px;
+    margin-top:5px;
+    margin-bottom: 20px;
+}
+.signup-form {
+    margin:0 400px;
+   
+}
+.signup-content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.signup-content{
+    padding:16px;
+}
+.signup-content p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+hr{
+    margin-bottom: 25px;
+}
+
+/* footer area */
+.footer {
+    background: #0B0E17;
+    text-align: center;
+    padding:60px;
+}
+.footer h2{
+    margin-bottom: 15px;
+    
 }
