@@ -20,6 +20,11 @@ p{
     float:left;
 }
 /* menu-area */
+.logo img{
+    width:8%;
+    float: left;
+    margin-left:50px;
+}
 .menu-area{
     text-align: center;
     
